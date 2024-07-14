@@ -22,7 +22,7 @@ export default function Skills() {
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
-      items: 3,
+      items: 2.6,
     },
   };
   const skillData = [
