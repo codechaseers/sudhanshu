@@ -1,0 +1,93 @@
+ 
+   /* .mainDiv{
+   margin: 0;
+   background: #ca3030;
+   padding: 0;
+   outline: auto;
+ 
+   } */
+ .timeline{
+    position: relative;
+    /* border: 1px solid red; */
+    /* max-width: 1200px; */
+    /* margin:2em auto   */
+ }
+
+ .boxContainer{
+   
+    padding: 20px 20px;
+    /* background: #4b4747; */
+    position: relative;
+    width: 50%;
+
+ }
+ .textbox{
+    position: relative;
+    padding: 20px 30px;
+    /* background: #e3dede; */
+    font-size: 1em;
+    border-radius: 6px;
+    box-shadow: -11px 11px 19px -8px rgba(0, 0, 0, 0.64);
+ }
+ .leftContainer{
+   overflow:visible;
+    left:0;
+ }
+ .rightContainer{
+   overflow:visible;
+    left: 50%;
+ }
+ .boxContainer> img{
+    width: 3em;
+    /* height: 3em; */
+    position: absolute;
+    right: -26px;
+    top:30px;
+    z-index: 1;
+
+    border: 13px solid rgb(162, 30, 223);
+    border-radius: 50%;
+    box-shadow: -11px 11px 19px -8px rgba(0, 0, 0, 0.64);
+ }
+ .rightContainer> img{
+    left: -23px;
+ }
+ .timeline::after{
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background: #bc5ce5;
+    top: 0;
+    left: 50%;
+    box-shadow: -11px 11px 19px -8px rgba(0, 0, 0, 0.64);
+    /* z-index: ; */
+ }
+
+ /* responsive  */
+ @media screen and (max-width: 600px){
+    .timeline{
+        /* margin: 50px auto; */
+
+    }
+    .timeline::after{
+        left:31px;
+
+    }
+    .boxContainer{
+        width: 100%;
+        padding-left: 80px;
+        padding-right: 25px;
+    }
+    .rightContainer{
+        left: 0px;
+    }
+    .rightContainer> img   {
+        left: 10px;
+    }
+     
+    .leftContainer > img {
+        left: 10px;
+    }
+     
+ }

@@ -1,0 +1,93 @@
+.project_img_Containt{
+    box-shadow: -11px 11px 19px -8px rgba(0, 0, 0, 0.64);
+}
+.project_Containt{
+    box-shadow: -11px 11px 19px -8px rgba(0, 0, 0, 0.64);
+   
+    transition: all,0.3s;
+}
+.project_Containt:hover { 
+    cursor: pointer;
+    /* transform: translateX(18px); */
+    /*Move 10px to the right */
+    /* z-index: 23; */
+    /* background: #ba89e5; */
+    transform: scale(1.1); 
+    /* Zoom in by 10%   */
+   
+    transition: all,0.3s;
+    
+}
+ 
+
+ 
+  
+  .viewSideBtn {
+    box-shadow: -11px 11px 11px -8px rgba(0, 0, 0, 0.64);
+    border: none;
+    transition: all 1s ease-in-out;
+   
+    /* background: linear-gradient(to right, #ffffff 50%, #b550e3 50%); */
+  
+}
+
+.viewSideBtn:hover {
+    background-color: #b550e3;
+    transform: scale(1.2) rotate(-10deg); 
+    /* transform: skew(10deg, 10deg) rotate(-10deg); */
+    /* transform: translateY(-10px) rotate(15deg); */
+    /* transform: scale(1.2) skew(-10deg, -10deg); */
+    /* transform: scale(1.2) rotateY(360deg); */
+    color: #fdfdfd;
+}
+
+/* btn */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @-webkit-keyframes bgSlideInLeft {
+    0% {
+      background-color: #ff0000; /* Start color */
+      visibility: visible;
+    }
+    100% {
+      background-color: #00ff00; /* End color */
+    }
+  }
+  
+  @keyframes bgSlideInLeft {
+    0% {
+      background-color: #ff0000; /* Start color */
+      visibility: visible;
+    }
+    100% {
+      background-color: #00ff00; /* End color */
+    }
+  }
+  
