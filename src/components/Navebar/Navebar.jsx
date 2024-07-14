@@ -60,12 +60,13 @@ function Navbar({ darkMode, handleDarkMode }) {
             className={`flex  flex-col   md:gap-4 md:mr-24  dark:text-neutral-200`}
           >
             <li className="py-2 md:py-0">
-              <a href="#project_Maindiv">Home</a>
+              <a href="#project_Maindiv"> <Link to={"#home"}>Home</Link></a>
             </li>
-            <li className="py-2 md:py-0">About</li>
-            <li className="py-2 md:py-0">Skills</li>
-            <li className="py-2 md:py-0">Projects</li>
-            <li className="py-2 md:py-0">Contacts</li>
+            <li className="py-2 md:py-0"> <Link to={"#about"}>About</Link></li>
+            <li className="py-2 md:py-0"><Link to={"#timeline"}>Timeline</Link></li>
+            <li className="py-2 md:py-0"> <Link to={"#skills"}>Skills</Link></li>           
+            <li className="py-2 md:py-0"> <Link to={"#projects"}>Projects</Link></li>
+            <li className="py-2 md:py-0"><Link to={"#contacts"}>Contacts</Link></li>
           </ul>
         </div>
       )}

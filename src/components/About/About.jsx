@@ -23,7 +23,7 @@ export default function About() {
         data-aos-easing="linear"
         data-aos-duration="1000"
       >
-        About <span className="text-purple-400">Me </span>
+        About <span className="text-purple-400">Me 💫</span>
       </p>
         <div className="flex flex-col lg:flex-row flex-wrap items-center dark:bg-neutral-800">
           <div

@@ -45,7 +45,7 @@ export default function Home() {
         <p className="text-[2em] mx-4 mt-2  text-center   text-neutral-400  uppercase font-sans font-bold">
           {/* Web dev */}
           <Typewriter
-            words={["A wev Developer", "A Mern Developer", ""]}
+            words={["A web Developer", "A Mern Developer", ""]}
             loop={true}
             cursor={true}
             typeSpeed={90}
