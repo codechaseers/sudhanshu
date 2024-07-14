@@ -9,7 +9,7 @@ import Projects from "./components/Projects/Projects";
 import { useLocation } from "react-router-dom";
 
 function App() {
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(false);
   const handleDarkMode = () => {
     setDarkMode(!darkMode);
     console.log("kk")
