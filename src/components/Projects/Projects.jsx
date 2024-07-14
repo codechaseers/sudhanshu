@@ -73,6 +73,7 @@ export default function Projects() {
           </div>
         </div>
       </div>
+      
       <div
         className="project_Containt lg:w-[80%] lg:h-[80%] h-[70%] w-[90%] flex lg:flex-row flex-col justify-center  items-center dark:bg-violet-300  rounded-xl lg:p-2 pt-3"
         data-aos="zoom-in"

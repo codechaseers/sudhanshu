@@ -26,30 +26,30 @@ function Navbar({ darkMode, handleDarkMode }) {
           <li className="py-2 md:py-0">
             <Link to={"#home"}>Home</Link>
           </li>
-          <li className="py-2 md:py-0">
+          <li className="py-2 md:py-0 hover-underline ">
             <Link to={"#about"}>About</Link>
           </li>   
-          <li className="py-2 md:py-0">
+          <li className="py-2 md:py-0 hover-underline">
             <Link to={"#timeline"}>Timeline</Link>
           </li>
-          <li className="py-2 md:py-0">
+          <li className="py-2 md:py-0 hover-underline">
             {" "}
             <Link to={"#skills"}>Skills</Link>
           </li>
-          <li className="py-2 md:py-0">
+          <li className="py-2 md:py-0 hover-underline">
             {" "}
             <Link to={"#projects"}>Projects</Link>
           </li>
-          <li className="py-2 md:py-0">
+          <li className="py-2 md:py-0 hover-underline">
             <Link to={"#contacts"}>Contacts</Link>
           </li>
         </ul>
-        <div className="dark:text-slate-100" onClick={handleDarkMode}>
+        <div className="dark:text-slate-100 hover-underline " onClick={handleDarkMode}>
           {darkMode && darkMode ? <Sun /> : <Moon />}
         </div>
       </div>
       <div className="flex   justify-end md:hidden">
-        <button className="dark:text-slate-100" onClick={toggleMenu}>
+        <button className="dark:text-slate-100 hover-underline" onClick={toggleMenu}>
           {isOpen ? <X /> : <Menu />}
         </button>
       </div>
@@ -59,14 +59,14 @@ function Navbar({ darkMode, handleDarkMode }) {
           <ul
             className={`flex  flex-col   md:gap-4 md:mr-24  dark:text-neutral-200`}
           >
-            <li className="py-2 md:py-0">
+            <li className="py-2 md:py-0 hover-underline">
               <a href="#project_Maindiv"> <Link to={"#home"}>Home</Link></a>
             </li>
-            <li className="py-2 md:py-0"> <Link to={"#about"}>About</Link></li>
-            <li className="py-2 md:py-0"><Link to={"#timeline"}>Timeline</Link></li>
-            <li className="py-2 md:py-0"> <Link to={"#skills"}>Skills</Link></li>           
-            <li className="py-2 md:py-0"> <Link to={"#projects"}>Projects</Link></li>
-            <li className="py-2 md:py-0"><Link to={"#contacts"}>Contacts</Link></li>
+            <li className="py-2 md:py-0 hover-underline"> <Link to={"#about"}>About</Link></li>
+            <li className="py-2 md:py-0 hover-underline"><Link to={"#timeline"}>Timeline</Link></li>
+            <li className="py-2 md:py-0 hover-underline"> <Link to={"#skills"}>Skills</Link></li>           
+            <li className="py-2 md:py-0 hover-underline"> <Link to={"#projects"}>Projects</Link></li>
+            <li className="py-2 md:py-0 hover-underline"><Link to={"#contacts"}>Contacts</Link></li>
           </ul>
         </div>
       )}

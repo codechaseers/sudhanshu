@@ -42,15 +42,16 @@ export default function Home() {
           Ojha
         </span>
 
-        <p className="text-[2em] mx-4 mt-2  text-center   text-neutral-400  uppercase font-sans font-bold">
+        <div className="text-[2em]   mx-auto mt-2  text-center   text-neutral-400  uppercase font-sans font-bold">
           {/* Web dev */}
           <Typewriter
+          
             words={["A Web Developer", "A Mern Developer", "A Freelancer","A Tech Explorer"]}
             loop={true}
             cursor={true}
             typeSpeed={90}
           />
-        </p>
+        </div>
         <p className="text-[1em] mx-4 mt-3 text-center     text-neutral-400    font-sans font-bold">
           A Full Stack Developer who loves solving problems and building
           projects. I am equipped with a variety of technologies and tools to
