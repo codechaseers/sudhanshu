@@ -45,7 +45,7 @@ export default function Home() {
         <p className="text-[2em] mx-4 mt-2  text-center   text-neutral-400  uppercase font-sans font-bold">
           {/* Web dev */}
           <Typewriter
-            words={["A web Developer", "A Mern Developer", ""]}
+            words={["A Web Developer", "A Mern Developer", "A Freelancer","A Tech Explorer"]}
             loop={true}
             cursor={true}
             typeSpeed={90}
@@ -54,7 +54,10 @@ export default function Home() {
         <p className="text-[1em] mx-4 mt-3 text-center     text-neutral-400    font-sans font-bold">
           A Full Stack Developer who loves solving problems and building
           projects. I am equipped with a variety of technologies and tools to
-          help me build the best possible product.
+          help me build the best possible product. 
+        </p> 
+        <p className="text-[1.1em] mx-4 mt-3 text-center     text-neutral-500    font-sans font-bold">
+           "A Developer by Profession, A Traveler by Passion"
         </p>
       </div>
 
