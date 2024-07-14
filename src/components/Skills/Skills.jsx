@@ -1,8 +1,12 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { FaHtml5, FaCss3, FaNodeJs, FaReact } from "react-icons/fa";
+//  icons importing
+import { FaHtml5, FaCss3, FaNodeJs, FaReact,FaBootstrap ,FaGithubAlt,FaGithub} from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { BiLogoMongodb } from "react-icons/bi";
+import { SiExpress,SiPostman } from "react-icons/si";
 import { Key } from "lucide-react";
 
 export default function Skills() {
@@ -36,15 +40,45 @@ export default function Skills() {
     },
     {
       icon: <IoLogoJavascript size={"3em"} />,
-      name: "Js",
+      name: "Java Script",
     },
     {
-      icon: <FaNodeJs size={"3em"} />,
-      name: "Node Js",
+      icon: <FaBootstrap size={"3em"} />,
+      name: "Bootstarp",
     },
+    {
+      icon: <RiTailwindCssFill size={"3em"} />,
+      name: "Tailwind",
+    }, 
     {
       icon: <FaReact size={"3em"} />,
       name: "React Js",
+    },
+  ];
+  const skillData2 = [
+    {
+      icon: <FaNodeJs size={"3em"} />,
+      name: "Node js",
+    },
+    {
+      icon: <BiLogoMongodb size={"3em"} />,
+      name: "MongoDB",
+    },
+    {
+      icon: <SiExpress size={"3em"} />,
+      name: "Express",
+    },
+    {
+      icon: <FaGithubAlt size={"3em"} />,
+      name: "Git",
+    },
+    {
+      icon: <FaGithub size={"3em"} />,
+      name: "Git hub",
+    }, 
+    {
+      icon: <SiPostman size={"3em"} />,
+      name: "Postman",
     },
   ];
 
@@ -74,41 +108,45 @@ export default function Skills() {
           {skillData.map((skill, index) => (
             <div
               key={index}
-              className="flex justify-center items-center flex-col h-[5em] w-[7em] m-3 glowing-border dark:glowing-border-light"
+              className="flex justify-center items-center flex-col h-[5em] w-[7em] m-3 glowing-border dark:glowing-border-light flex-wrap"
+
             >
               <div className="text-purple-600">{skill.icon}</div>
-              <p className="text-purple-400 font-bold font-sans text-2xl">
+              <p className="text-purple-400 font-bold font-sans text-1.8xl text-wrap text-pretty">
                 {skill.name}
               </p>
             </div>
           ))}
         </Carousel>
-      </div>{" "}
-      <div className=" mt-[3em] lg:w-[70%] w-[90%]"
-       data-aos="fade-right"
-       data-aos-duration="5000"
-       >
+      </div> 
+      <div
+        className=" mt-[3em] lg:w-[70%] w-[90%]"
+        data-aos="fade-left"
+        data-aos-duration="2000"
+      >
         <Carousel
-          className="dark:bg-neutral-800 "
+          className="dark:bg-neutral-800 mb-5"
           responsive={responsive}
           infinite={true}
           autoPlay={true}
           autoPlaySpeed={1000}
           removeArrowOnDeviceType={["tablet", "mobile", "desktop"]}
         >
-          {skillData.map((skill, index) => (
+          {skillData2.map((skill, index) => (
             <div
               key={index}
-              className="flex justify-center items-center flex-col h-[5em] w-[7em] m-3 glowing-border dark:glowing-border-light"
+              className="flex justify-center items-center flex-col h-[5em] w-[7em] m-3 glowing-border dark:glowing-border-light flex-wrap"
+
             >
               <div className="text-purple-600">{skill.icon}</div>
-              <p className="text-purple-400 font-bold font-sans text-2xl">
+              <p className="text-purple-400 font-bold font-sans text-1.8xl text-wrap text-pretty">
                 {skill.name}
               </p>
             </div>
           ))}
         </Carousel>
-      </div>
+      </div> 
+     
     </div>
   );
 }
