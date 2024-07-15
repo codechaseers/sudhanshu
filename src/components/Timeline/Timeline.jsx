@@ -28,16 +28,13 @@ const Timeline = () => {
                 data-aos-duration="1000"
               >
                 {" "}
-                Amazon
+               DigiDivine Infotech LTD (remote)
               </p>
               <small data-aos="fade-right" data-aos-duration="1000">
-                2018-2019
+                2023-2024
               </small>
               <p data-aos="fade-right" data-aos-duration="1000">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                harum sapiente repellendus consequuntur in, similique qui nulla
-                quibusdam necessitatibus molestias, sed ea? Iure labore magnam
-                dignissimos corrupti animi dicta libero!
+              I interned at DigiDivine Infotech LTD for one year as a Node.js and React developer, where I developed and maintained dynamic web applications. This experience honed my full-stack development skills and provided hands-on experience in a professional environment.
               </p>
             </div>
           </div>
@@ -58,17 +55,14 @@ const Timeline = () => {
                 data-aos="fade-left"
                 data-aos-duration="1000"
               >
-                {" "}
-                Tcs
+              Master of Computer Applications (MCA)
+              
               </p>
               <small data-aos="fade-left" data-aos-duration="1000">
-                2018-2019
+                2022-2024
               </small>
               <p data-aos="fade-left" data-aos-duration="1000">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                harum sapiente repellendus consequuntur in, similique qui nulla
-                quibusdam necessitatibus molestias, sed ea? Iure labore magnam
-                dignissimos corrupti animi dicta libero!
+              I have completed a Master of Computer Applications (MCA), which has deepened my expertise in advanced computing, software engineering, and application development. 
               </p>
             </div>
           </div>
@@ -86,16 +80,14 @@ const Timeline = () => {
                 data-aos-duration="1000"
               >
                 {" "}
-                Google
+                 Bachelor in Computer Application (BCA)
               </p>
               <small data-aos="fade-right" data-aos-duration="1000">
-                2018-2019
+                2019-2022
               </small>
               <p data-aos="fade-right" data-aos-duration="1000">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                harum sapiente repellendus consequuntur in, similique qui nulla
-                quibusdam necessitatibus molestias, sed ea? Iure labore magnam
-                dignissimos corrupti animi dicta libero!
+              (Maharaja Purna Chandra Autonomous College, Baripada)"
+              I hold a Bachelor of Computer Applications (BCA), where I gained a solid foundation in computer science, software development, and IT concepts. 
               </p>
             </div>
           </div>
@@ -113,16 +105,13 @@ const Timeline = () => {
                 data-aos-duration="1000"
               >
                 {" "}
-                Samsung
+                Completed Higher Secondary - Science
               </p>
               <small data-aos="fade-left" data-aos-duration="1000">
-                2018-2019
+                2017-2019
               </small>
               <p data-aos="fade-left" data-aos-duration="1000">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                harum sapiente repellendus consequuntur in, similique qui nulla
-                quibusdam necessitatibus molestias, sed ea? Iure labore magnam
-                dignissimos corrupti animi dicta libero!
+                 Avantika Residential Junior College Charmapa, Bhadrak, Odisha,
               </p>
             </div>
           </div>

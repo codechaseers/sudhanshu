@@ -61,7 +61,7 @@ export default function About() {
               → Esports
             </p>
             <p className=" bg-slate-00  text-[1.2em]  mx-2 mt-3 w-full  text-pretty    text-start  border-solid text-neutral-500    font-sans font-bold">
-              → Travaling
+              → Traveling
             </p>
             <p className=" bg-slate-00  text-[1.2em]  mx-2 mt-3 w-full  text-pretty    text-start  border-solid text-neutral-500    font-sans font-bold">
               → Bike Riding
