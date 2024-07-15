@@ -7,6 +7,7 @@ import Skills from "./components/Skills/Skills";
 import Timeline from "./components/Timeline/Timeline";
 import Projects from "./components/Projects/Projects";
 import { useLocation } from "react-router-dom";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -42,6 +43,7 @@ function App() {
       <section id="timeline" ref={timelineRef}><Timeline /></section>
       <section id="skills" ref={skillsRef}><Skills /></section>
       <section id="projects" ref={projectsRef}><Projects /></section>
+      <section id="contacts" ref={projectsRef}><Contact /></section>
     </div>
   );
 }

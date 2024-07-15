@@ -22,7 +22,14 @@ AppMainContainer{
     transform: translateY(-0.8vmax);
     transition: all,0.3s;
   }
-  
+  /* 3dHover zoom  */
+  .zoomHover:hover{
+    /* box-shadow: -11px 11px 19px -8px rgba(0,0,0,0.64); */
+    transform: scale(1.2); 
+    /* Zoom in by 10%   */
+   
+    transition: all,0.3s;
+  }
 
   /* Hover effect  */
   .hover-underline {
