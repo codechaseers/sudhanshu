@@ -28,12 +28,12 @@ export default function Projects() {
         data-aos-duration="1000"
       >
         <div
-          className="project_img_Containt p-2  lg:w-[103em] lg:h-[21em] h-[20em] w-[20em] md:w-[42em]  rounded-[1em]"
+          className="project_img_Containt p-2  lg:w-[150em] lg:h-[21em] h-[20em] w-[20em] md:w-[42em]  rounded-[1em]"
           data-aos="fade-right"
           data-aos-duration="1000"
         >
           <img
-            className="w-full h-full object-cover   rounded-xl"
+            className="w-full h-full object-fit   rounded-xl"
             src={egmi}
             alt=""
           />
@@ -80,19 +80,19 @@ export default function Projects() {
           </div>
         </div>
       </div>
-
+{/* /Deshboard*/}
       <div
         className="project_Containt lg:w-[80%] lg:h-[80%] h-[70%] w-[90%] flex lg:flex-row flex-col justify-center  items-center dark:bg-violet-300  rounded-xl lg:p-2 pt-3"
         data-aos="zoom-in"
         data-aos-duration="1000"
       >
         <div
-          className="project_img_Containt p-2  lg:w-[103em] lg:h-[21em] h-[20em] w-[20em] md:w-[42em]  rounded-[1em]"
+          className="project_img_Containt p-2  lg:w-[170em] lg:h-[21em] h-[18em] w-[20em] md:w-[42em]  rounded-[1em]   "
           data-aos="fade-right"
           data-aos-duration="1000"
         >
           <img
-            className="w-full h-full object-cover   rounded-xl"
+            className="w-full h-full object-fit   rounded-xl"
             src={deshboard}
             alt=""
           />
@@ -146,12 +146,12 @@ export default function Projects() {
         data-aos-duration="1000"
       >
         <div
-          className="project_img_Containt p-2  lg:w-[103em] lg:h-[21em] h-[20em] w-[20em] md:w-[42em]  rounded-[1em]"
+          className="project_img_Containt p-2  lg:w-[150em] lg:h-[21em] h-[20em] w-[20em] md:w-[42em]  rounded-[1em]"
           data-aos="fade-right"
           data-aos-duration="1000"
         >
           <img
-            className="w-full h-full object-cover   rounded-xl"
+            className="w-full h-full object-fit   rounded-xl"
             src={rockgame}
             alt=""
           />
@@ -207,12 +207,12 @@ export default function Projects() {
         data-aos-duration="1000"
       >
         <div
-          className="project_img_Containt p-2  lg:w-[103em] lg:h-[21em] h-[20em] w-[20em] md:w-[42em]  rounded-[1em]"
+          className="project_img_Containt p-2  lg:w-[150em] lg:h-[21em] h-[20em] w-[20em] md:w-[42em]  rounded-[1em]"
           data-aos="fade-right"
           data-aos-duration="1000"
         >
           <img
-            className="w-full h-full object-cover   rounded-xl"
+            className="w-full h-full object-fit   rounded-xl"
             src={weather}
             alt=""
           />
