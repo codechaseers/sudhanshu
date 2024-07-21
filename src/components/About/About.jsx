@@ -34,6 +34,7 @@ export default function About() {
               data-aos="zoom-in"
               data-aos-duration="2000"
               src={chinku}
+              
               alt="Developer Vector"
               className="lg:w-[70%] lg:h-[70%]"
             />
