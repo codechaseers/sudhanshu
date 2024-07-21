@@ -23,7 +23,7 @@ function Navbar({ darkMode, handleDarkMode }) {
         <ul
           className={`md:flex  flex-row   md:gap-4 md:mr-6 hidden   dark:text-neutral-200`}
         >
-          <li className="py-2 md:py-0">
+          <li className="py-2 md:py-0 hover-underline">
             <Link to={"#home"}>Home</Link>
           </li>
           <li className="py-2 md:py-0 hover-underline ">

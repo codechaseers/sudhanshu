@@ -28,7 +28,7 @@ const Timeline = () => {
                 data-aos-duration="1000"
               >
                 {" "}
-               DigiDivine Infotech LTD (remote)
+               DigiDivine Online Services PVT LTD (remote)
               </p>
               <small data-aos="fade-right" data-aos-duration="1000">
                 2023-2024
