@@ -18,7 +18,7 @@ export default function Skills() {
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 5,
+      items: 6,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -83,7 +83,7 @@ export default function Skills() {
   ];
 
   return (
-    <div className="dark:bg-neutral-800 h-full w-full flex items-center flex-col">
+    <div className="dark:bg-neutral-800 h-full w-full flex items-center flex-col justify-center">
       <p
         className="text-center drop-shadow-lg text-5xl font-sans font-bold text-neutral-600  mt-[2em] mb-5 dark:text-neutral-200"
         data-aos="fade-down"
@@ -92,17 +92,19 @@ export default function Skills() {
       >
         Skill <span className="text-purple-400">Sets 🔥</span>
       </p>
+      
       <div
-        className=" mt-[3em] lg:w-[70%] w-[90%]"
+        className=" mt-[3em] lg:w-[70%] w-[90%]   "
         data-aos="fade-left"
         data-aos-duration="2000"
       >
         <Carousel
-          className="dark:bg-neutral-800 mb-5"
+          className="dark:bg-neutral-800 mb-5  "
           responsive={responsive}
           infinite={true}
           autoPlay={true}
           autoPlaySpeed={1000}
+          
           removeArrowOnDeviceType={["tablet", "mobile", "desktop"]}
         >
           {skillData.map((skill, index) => (
@@ -119,10 +121,12 @@ export default function Skills() {
           ))}
         </Carousel>
       </div> 
+
       <div
-        className=" mt-[3em] lg:w-[70%] w-[90%]"
-        data-aos="fade-left"
+        className=" mt-[3em] lg:w-[70%] w-[90%]   "
+        data-aos="fade-right"
         data-aos-duration="2000"
+      
       >
         <Carousel
           className="dark:bg-neutral-800 mb-5"
@@ -130,6 +134,7 @@ export default function Skills() {
           infinite={true}
           autoPlay={true}
           autoPlaySpeed={1000}
+          rtl={true}
           removeArrowOnDeviceType={["tablet", "mobile", "desktop"]}
         >
           {skillData2.map((skill, index) => (
