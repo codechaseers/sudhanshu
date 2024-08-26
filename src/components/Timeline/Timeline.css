@@ -19,11 +19,13 @@
     /* background: #4b4747; */
     position: relative;
     width: 50%;
+    
 
  }
  .textbox{
     position: relative;
     padding: 20px 30px;
+   
     /* background: #e3dede; */
     font-size: 1em;
     border-radius: 6px;
@@ -91,3 +93,11 @@
     }
      
  }
+ /* testing  */
+ /* @media screen and(min-width: 1919px){
+   .textbox{
+      height: 14em;
+      background: #000;
+   }
+   
+ } */

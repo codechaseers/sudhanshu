@@ -14,14 +14,14 @@ const Timeline = () => {
           Time <span className="text-purple-400">Line ⭐</span>
         </p>
         <div className="timeline dark:bg-neutral-800">
-          <div className="boxContainer leftContainer ">
+          <div className="boxContainer leftContainer  ">
             <img
               src={timilineLogo}
               alt=""
               data-aos="zoom-in"
               data-aos-duration="1000"
             />
-            <div className="textbox bg-violet-300 " data-aos="zoom-in">
+            <div className="textbox bg-violet-300 " data-aos="zoom-in  ">
               <p
                 className="text-2xl font-sans font-bold text-neutral-600"
                 data-aos="fade-right"

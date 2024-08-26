@@ -24,21 +24,24 @@ export default function Home() {
       once: false, // Trigger animation only once
     });
   }, []);
+  
   return (
-    <div className="flex flex-col lg:flex-row h-full w-full items-center dark:bg-neutral-800 pt-[1em]">
+
+    <div className=" flex flex-col lg:flex-row h-full w-full items-center dark:bg-neutral-800 pt-[1em]">
+      
       <div
-        className=" lg:w-[50%] p-2   flex flex-wrap md:items-center md:justify-center  "
+        className=" lg:w-[50%] p-2   flex flex-wrap md:items-center md:justify-center   "
         data-aos="fade-right"
         data-aos-duration="2000"
         style={{ transform: `translateY(-${offsetY * 0.5}px)` }}
       >
-        <span className="text-[4em]  text-neutral-600 dark:text-purple-400 font-sans font-bold mx-2" >
+        <span className="text-[4em]  2xl:text-[7em] text-neutral-600  md:text-center dark:text-purple-400 font-sans font-bold mx-2" >
           Hey, i am
         </span>
-        <span className="text-[4em]  mx-2 lg:mx-2    text-indigo-400 font-sans font-bold">
+        <span className="text-[4em] 2xl:text-[6em] mx-2 lg:mx-2  md:text-center   text-indigo-400 font-sans font-bold">
           Sudhanshu Shekhar
         </span>
-        <span className="text-[4em] mx-2  lg:mx-2 md:text-center w-full    text-indigo-400  font-sans font-bold">
+        <span className="text-[4em] mx-2 2xl:text-[5em] lg:mx-2 md:text-center w-full    text-indigo-400  font-sans font-bold">
           Ojha
         </span>
 
@@ -54,12 +57,12 @@ export default function Home() {
           />
           
         </div>
-        <p className="text-[1em] mx-4 mt-3 text-center     text-neutral-400    font-sans font-bold">
+        <p className="text-[1em] 2xl:text-[1.4em] mx-4 mt-3 text-center     text-neutral-400    font-sans font-bold">
           A Full Stack Developer who loves solving problems and building
           projects. I am equipped with a variety of technologies and tools to
           help me build the best possible product. 
         </p> 
-        <p className="text-[1.1em] mx-4 mt-3 text-center     text-neutral-500    font-sans font-bold">
+        <p className="text-[1.1em] 2xl:text-[1.5em] mx-4 mt-3 text-center     text-neutral-500    font-sans font-bold">
            "A Developer by Profession, A Traveler by Passion"
         </p>
       </div>
