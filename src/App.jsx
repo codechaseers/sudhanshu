@@ -8,6 +8,7 @@ import Timeline from "./components/Timeline/Timeline";
 import Projects from "./components/Projects/Projects";
 import { useLocation } from "react-router-dom";
 import Contact from "./components/Contact/Contact";
+import Globe from "./components/Tset/Glob";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -44,6 +45,7 @@ function App() {
       <section id="skills" ref={skillsRef}><Skills /></section>
       <section id="projects" ref={projectsRef}><Projects /></section>
       <section id="contacts" ref={projectsRef}><Contact /></section>
+      {/* <section id="contacts"  ><Globe/></section> */}
     </div>
   );
 }

@@ -18,8 +18,12 @@ export default function Projects() {
         data-aos-easing="linear"
         data-aos-duration="1000"
       >
-        My
-        <span className="text-purple-400"> Projects 🚀</span>
+        <span className="underline1">
+          <span className="underline2">
+            My
+            <span className="text-purple-400"> Projects 🚀</span>
+          </span>
+        </span>
       </p>
       {/* /egmi */}
       <div

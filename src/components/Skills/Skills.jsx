@@ -90,7 +90,8 @@ export default function Skills() {
         data-aos-easing="linear"
         data-aos-duration="1000"
       >
-        Skill <span className="text-purple-400">Sets 🔥</span>
+        <span className="underline1"><span className="underline2">Skill <span className="text-purple-400">Sets 🔥</span></span></span>
+        
       </p>
       
       <div

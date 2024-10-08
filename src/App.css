@@ -60,4 +60,39 @@ AppMainContainer{
     width: 100%;
   }
   
+  .underline1{
+    position: relative;
+    display: inline-block !important;
+
+  }  .underline2{
+    position: relative;
+    display: inline-block !important;
+
+  }
+  .underline1::before {
+    content: "";
+    position: absolute;
+    bottom: -18px;
+    left: 0;
+ 
+    height: 9px;
+    width: 70% !important;
+    border: solid 5px rgb(0, 136, 255);
+    
+    border-color:  rgb(218, 66, 232) transparent transparent transparent;
+    border-radius: 60%;
+}
+ .underline2::before {
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+ 
+    height: 0.3px;
+    width: 42% !important;
+    border: solid 4px rgb(0, 136, 255);
+    
+    border-color: rgb(218, 66, 232) transparent transparent transparent;
+    border-radius: 50%;
+}
  

@@ -16,8 +16,13 @@ export default function Contact() {
         data-aos-easing="linear"
         data-aos-duration="1000"
       >
-        Get in
-        <span className="text-purple-400"> Touch 👋</span>
+        <span className="underline1">
+          <span className="underline2">
+            {" "}
+            Get in
+            <span className="text-purple-400"> Touch 👋</span>
+          </span>
+        </span>
       </p>
       <div className="flex gap-3 md:gap-[6em] flex-wrap">
         <div className="hover-underline zoomHover dark:text-slate-50">
@@ -40,8 +45,7 @@ export default function Contact() {
         <div className="hover-underline zoomHover dark:text-slate-50">
           {" "}
           <a href="https://github.com/codechaseers/">
-
-          <FaGithub size={"2.8em"} />
+            <FaGithub size={"2.8em"} />
           </a>
         </div>
         <div className="hover-underline zoomHover dark:text-slate-50">

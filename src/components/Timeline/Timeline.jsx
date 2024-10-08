@@ -11,7 +11,8 @@ const Timeline = () => {
           data-aos-easing="linear"
           data-aos-duration="1000"
         >
-          Time <span className="text-purple-400">Line ⭐</span>
+          <span className="underline1"><span className="underline2">    Time <span className="text-purple-400">Line ⭐</span></span></span>
+      
         </p>
         <div className="timeline dark:bg-neutral-800">
           <div className="boxContainer leftContainer  ">
