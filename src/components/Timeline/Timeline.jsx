@@ -35,7 +35,7 @@ const Timeline = () => {
                 2023-2024
               </small>
               <p data-aos="fade-right" data-aos-duration="1000">
-              I interned at DigiDivine Infotech LTD for one year as a Node.js and React developer, where I developed and maintained dynamic web applications. This experience honed my full-stack development skills and provided hands-on experience in a professional environment.
+              I interned at DigiDivine online Services LTD for one year as a Node.js and React developer, where I developed and maintained dynamic web applications. This experience honed my full-stack development skills and provided hands-on experience in a professional environment.
               </p>
             </div>
           </div>
