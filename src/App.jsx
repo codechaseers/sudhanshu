@@ -9,12 +9,14 @@ import Projects from "./components/Projects/Projects";
 import { useLocation } from "react-router-dom";
 import Contact from "./components/Contact/Contact";
 import Globe from "./components/Tset/Glob";
+import VantaBirdsBackground from "./components/VantaBirdsBackground";
+
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
   const handleDarkMode = () => {
     setDarkMode(!darkMode);
-    console.log("kk")
+    // console.log("kk")
     
   };
 
@@ -39,6 +41,7 @@ function App() {
     <div className={`${darkMode ? "dark" : ""} dark:bg-neutral-900 overflow-x-hidden `} >
       
       <Navebar darkMode={darkMode} handleDarkMode={handleDarkMode} />
+      <VantaBirdsBackground darkMode={darkMode}/>
       <section id="home" ref={homeRef}><Home /></section>
       <section id="about" ref={aboutRef}><About id="about" /></section>
       <section id="timeline" ref={timelineRef}><Timeline /></section>
@@ -46,6 +49,7 @@ function App() {
       <section id="projects" ref={projectsRef}><Projects /></section>
       <section id="contacts" ref={projectsRef}><Contact /></section>
       {/* <section id="contacts"  ><Globe/></section> */}
+      
     </div>
   );
 }
