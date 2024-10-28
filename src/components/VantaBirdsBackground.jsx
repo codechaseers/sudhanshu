@@ -28,7 +28,7 @@ const VantaBirdsBackground = ({darkMode}) => {
         birdSize: 1.2,
         wingSpan: 20.0,
         cohesion: 77.0,
-        quantity: 3.7,
+        quantity: 3,
       });
     }
 
