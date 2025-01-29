@@ -83,7 +83,7 @@ export default function Skills() {
   ];
 
   return (
-    <div className="dark:bg-neutral-800 h-full w-full flex items-center flex-col justify-center">
+    <div className="dark:bg-black  h-full w-full flex items-center flex-col justify-center">
       <p
         className="text-center drop-shadow-lg text-5xl font-sans font-bold text-neutral-600  mt-[2em] mb-5 dark:text-neutral-200"
         data-aos="fade-down"
@@ -100,7 +100,7 @@ export default function Skills() {
         data-aos-duration="2000"
       >
         <Carousel
-          className="dark:bg-neutral-800 mb-5  "
+          className="dark:bg-black mb-5  "
           responsive={responsive}
           infinite={true}
           autoPlay={true}
@@ -130,7 +130,7 @@ export default function Skills() {
       
       >
         <Carousel
-          className="dark:bg-neutral-800 mb-5"
+          className="dark:bg-black mb-5"
           responsive={responsive}
           infinite={true}
           autoPlay={true}

@@ -9,7 +9,7 @@ import { FaHtml5, FaCss3, FaNodeJs, FaReact } from "react-icons/fa";
 export default function Projects() {
   return (
     <div
-      className="project_Maindiv h-full  dark:bg-neutral-800 flex justify-center items-center flex-col gap-7 lg:pb-[2em] pb-[4em]  "
+      className="project_Maindiv h-full dark:bg-black   flex justify-center items-center flex-col gap-7 lg:pb-[2em] pb-[4em]  "
       id=""
     >
       <p

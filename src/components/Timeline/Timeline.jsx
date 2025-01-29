@@ -4,7 +4,7 @@ import timilineLogo from "../../assets/timilineLogo.png";
 const Timeline = () => {
   return (
     <>
-      <div className="dark:bg-neutral-800 mainDiv h-full pt-[6em]">
+      <div className="dark:bg-black mainDiv h-full pt-[6em]">
         <p
           className="text-center drop-shadow-lg text-5xl font-sans font-bold text-neutral-600 mb-[1em]  dark:text-neutral-200"
           data-aos="fade-down"
@@ -14,7 +14,7 @@ const Timeline = () => {
           <span className="underline1"><span className="underline2">    Time <span className="text-purple-400">Line ⭐</span></span></span>
       
         </p>
-        <div className="timeline dark:bg-neutral-800">
+        <div className="timeline dark:bg-black">
           <div className="boxContainer leftContainer  ">
             <img
               src={timilineLogo}
@@ -32,7 +32,7 @@ const Timeline = () => {
                DigiDivine Online Services PVT LTD (remote)
               </p>
               <small data-aos="fade-right" data-aos-duration="1000">
-                2023-2024
+                2024 - Present
               </small>
               <p data-aos="fade-right" data-aos-duration="1000">
               I interned at DigiDivine online Services LTD for one year as a Node.js and React developer, where I developed and maintained dynamic web applications. This experience honed my full-stack development skills and provided hands-on experience in a professional environment.

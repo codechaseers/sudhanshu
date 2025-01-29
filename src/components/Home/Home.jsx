@@ -27,7 +27,7 @@ export default function Home() {
   
   return (
 
-    <div className=" flex flex-col lg:flex-row h-full w-full items-center dark:bg-neutral-800 pt-[1em]">
+    <div className=" flex flex-col lg:flex-row h-full w-full items-center dark:bg-black pt-[1em] ">
       
       <div
         className=" lg:w-[50%] p-2   flex flex-wrap md:items-center md:justify-center   "

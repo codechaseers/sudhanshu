@@ -16,7 +16,7 @@ export default function About() {
 
   return (
     <>
-      <div className="dark:bg-neutral-800  w-full h-full  flex items-center justify-center flex-col">
+      <div className="dark:bg-black w-full h-full  flex items-center justify-center flex-col">
       <p
         className=" drop-shadow-lg text-5xl font-sans font-bold text-neutral-600  dark:text-neutral-200 lg:mt-[2em] overflow-visible" 
         data-aos="fade-down"
@@ -26,7 +26,7 @@ export default function About() {
         
       <span className="underline1"><span className="underline2">About <span className="text-purple-400">Me 💫</span></span> </span> 
       </p>
-        <div className="flex flex-col lg:flex-row flex-wrap items-center dark:bg-neutral-800">
+        <div className="flex flex-col lg:flex-row flex-wrap items-center dark:bg-black">
           <div
             className="bg-orange-00 flex flex-col w-[90%] lg:w-[50%] lg:h-screen flex-wrap items-center justify-center"
             // style={{ transform: `translateY(-${offsetY * 0.2}px)`,transition:"smooth"}}

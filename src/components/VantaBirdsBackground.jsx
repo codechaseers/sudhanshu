@@ -21,7 +21,7 @@ const VantaBirdsBackground = ({darkMode}) => {
         minWidth: 200.0,
         scale: 1.0,
         scaleMobile: 1.0,
-        backgroundColor: darkMode ? 0x262626 : 0xffffff,
+        backgroundColor: darkMode ? 'black' : 0xffffff,
         color1: 0xab5ad4,
         color2: 0x3fff,
         colorMode: "lerpGradient",
