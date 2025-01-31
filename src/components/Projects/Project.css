@@ -2,7 +2,7 @@
     box-shadow: -11px 11px 19px -8px rgba(0, 0, 0, 0.64);
 }
 .project_Containt{
-    box-shadow: -11px 11px 19px -8px rgba(0, 0, 0, 0.64);
+    /* box-shadow: -11px 11px 19px -8px rgba(0, 0, 0, 0.64); */
    
     transition: all,0.3s;
 }
